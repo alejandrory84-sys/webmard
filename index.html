@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARD Systems | Implementamos Tecnología. Garantizamos Adopción.</title>
+  <meta name="description" content="Implementamos ERP, CRM e IA y garantizamos que tu equipo los adopte. Consultoría IT estratégica con metodología exclusiva DigMental™. +20 años transformando empresas. Agenda tu diagnóstico gratuito." />
+  <meta name="keywords" content="consultoría IT, implementación ERP, Odoo, SAP, Microsoft Dynamics, CRM, inteligencia artificial empresarial, transformación digital, DigMental, adopción tecnológica, CTO as a Service" />
+  <meta property="og:title" content="MARD Systems | Implementamos Tecnología. Garantizamos Adopción." />
+  <meta property="og:description" content="El 70% de los proyectos IT fracasan. Nosotros garantizamos que el tuyo no lo hará. Metodología DigMental™ + 20 años de experiencia." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- PRELOADER -->
+<!-- IMPORTANTE: Guarda el logo como "logo.png" en esta carpeta para que aparezca aquí -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <img src="logo.png" alt="MARD Systems" class="preloader-logo" onerror="this.style.display='none'">
+    <div class="preloader-logo-text"><span>MARD</span> Systems</div>
+    <div class="preloader-track">
+      <div class="preloader-fill"></div>
+    </div>
+  </div>
+</div>
+
+<!-- SCROLL PROGRESS BAR -->
+<div id="scroll-progress"></div>
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">
+      <img src="logo.png" alt="MARD Systems Logo" class="logo-img" onerror="this.style.display='none'">
+      <span class="logo-text">MARD <strong>Systems</strong></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#digmental">DigMental™</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn btn-nav">Diagnóstico Gratuito</a>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-parallax-img"></div>
+    <div class="hero-gradient-overlay"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <canvas id="particles-canvas"></canvas>
+
+  <div class="hero-content container">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      ✦ Únicos con Garantía de Adopción en LATAM
+    </div>
+
+    <h1 class="hero-h1">
+      El 70% de los proyectos IT<br />
+      <span class="gradient-text">fracasan.</span><br />
+      El tuyo <em>no lo hará</em>.
+    </h1>
+
+    <p class="hero-typewriter-line">
+      Especialistas en: <span id="typewriter-text"></span><span class="tw-cursor">|</span>
+    </p>
+
+    <p class="hero-sub">
+      Implementamos ERP, CRM e IA — y garantizamos que tu equipo los adopte.<br />
+      Metodología exclusiva DigMental™ · +20 años de resultados reales.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#contacto" class="btn btn-primary btn-lg">Quiero mi diagnóstico gratuito →</a>
+      <a href="#servicios" class="btn btn-ghost">Ver cómo lo hacemos</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span><span class="stat-num" data-target="20">0</span><span class="stat-sym">+</span></span>
+        <span class="stat-label">Años transformando empresas</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span><span class="stat-num" data-target="150">0</span><span class="stat-sym">+</span></span>
+        <span class="stat-label">Proyectos exitosos</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span><span class="stat-num" data-target="98">0</span><span class="stat-sym">%</span></span>
+        <span class="stat-label">Tasa de adopción real</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll"><span></span></div>
+</section>
+
+<!-- ═══════════════════════════ TRUST BAR ═══════════════════════════ -->
+<section id="trust-bar">
+  <div class="container">
+    <p class="trust-label">Sectores que ya confían en nuestra metodología</p>
+  </div>
+  <div class="trust-marquee-wrap">
+    <div class="trust-marquee">
+      <div class="trust-logo">⚙ MANUFACTURA</div>
+      <div class="trust-logo">🚛 LOGÍSTICA</div>
+      <div class="trust-logo">🛍 RETAIL</div>
+      <div class="trust-logo">🏥 SALUD</div>
+      <div class="trust-logo">💰 FINANZAS</div>
+      <div class="trust-logo">📦 DISTRIBUCIÓN</div>
+      <div class="trust-logo">🏗 CONSTRUCCIÓN</div>
+      <div class="trust-logo">🌐 SERVICIOS</div>
+      <!-- duplicado para loop continuo -->
+      <div class="trust-logo">⚙ MANUFACTURA</div>
+      <div class="trust-logo">🚛 LOGÍSTICA</div>
+      <div class="trust-logo">🛍 RETAIL</div>
+      <div class="trust-logo">🏥 SALUD</div>
+      <div class="trust-logo">💰 FINANZAS</div>
+      <div class="trust-logo">📦 DISTRIBUCIÓN</div>
+      <div class="trust-logo">🏗 CONSTRUCCIÓN</div>
+      <div class="trust-logo">🌐 SERVICIOS</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ NOSOTROS ═══════════════════════════ -->
+<section id="nosotros">
+  <div class="container two-col">
+
+    <div class="col-text reveal-left">
+      <span class="section-tag">Sobre MARD Systems</span>
+      <h2>No somos otro proveedor de software.<br /><span class="gradient-text">Somos tu socio de transformación.</span></h2>
+      <p>Mientras otros implementan y desaparecen, nosotros nos quedamos hasta que tu equipo realmente adopte la tecnología. Sin humo, sin venderte lo que no necesitas.</p>
+      <p>Operamos como un equipo interno tuyo — con la agilidad de una boutique y la solidez de 20 años de experiencia real en campo.</p>
+      <ul class="check-list">
+        <li>Diagnóstico honesto antes de proponer cualquier solución</li>
+        <li>Selección objetiva de tecnología (sin ataduras a un solo proveedor)</li>
+        <li>Implementación + capacitación simultánea del equipo</li>
+        <li>No cerramos el proyecto hasta que los números lo confirmen</li>
+      </ul>
+      <a href="#contacto" class="btn btn-primary">Hablemos sin compromiso →</a>
+    </div>
+
+    <div class="col-visual reveal-right">
+      <div class="nosotros-img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=700&q=80"
+          alt="Equipo MARD Systems trabajando con clientes"
+          class="nosotros-img"
+          loading="lazy"
+        />
+        <div class="nosotros-img-overlay">
+          <div class="nosotros-badge">
+            <span class="nosotros-badge-num">20+</span>
+            <span class="nosotros-badge-label">Años de experiencia</span>
+          </div>
+        </div>
+      </div>
+      <div class="nosotros-cards-row">
+        <div class="about-card reveal-scale">
+          <div class="about-icon">🧭</div>
+          <h3>Diagnóstico Honesto</h3>
+          <p>Primero entendemos tu empresa. Sin humo, sin venta forzada.</p>
+        </div>
+        <div class="about-card reveal-scale">
+          <div class="about-icon">⚙️</div>
+          <h3>Implementación Quirúrgica</h3>
+          <p>Solo lo que necesitas, bien hecho, en el tiempo acordado.</p>
+        </div>
+        <div class="about-card reveal-scale">
+          <div class="about-icon">🚀</div>
+          <h3>Adopción Garantizada</h3>
+          <p>No cerramos el proyecto hasta que tu equipo realmente lo use.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SERVICIOS ═══════════════════════════ -->
+<section id="servicios">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Nuestros Servicios</span>
+      <h2>Todo lo que necesitas para crecer<br /><span class="gradient-text">con tecnología — bajo un mismo techo</span></h2>
+      <p class="section-sub">No vendemos software. Construimos el ecosistema tecnológico exacto que tu empresa necesita para operar mejor, costar menos y crecer más rápido.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card reveal" id="service-consultoria">
+        <div class="service-icon-wrap s1">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h3>Consultoría IT &amp; CTO as a Service</h3>
+        <p>¿Necesitas dirección tecnológica estratégica sin contratar un CTO de planta? Nosotros lo somos. Evaluamos, diseñamos y ejecutamos tu hoja de ruta tecnológica.</p>
+        <ul class="service-features">
+          <li>Auditoría completa de procesos y sistemas actuales</li>
+          <li>Arquitectura de soluciones a medida</li>
+          <li>CTO / CIO externo con disponibilidad total</li>
+          <li>Gestión y supervisión de proyectos IT</li>
+        </ul>
+        <a href="#contacto" class="service-link">Quiero mi diagnóstico →</a>
+      </div>
+
+      <div class="service-card reveal" id="service-implementacion">
+        <div class="service-icon-wrap s2">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/></svg>
+        </div>
+        <h3>ERP · CRM · WMS Empresarial</h3>
+        <p>Implementamos los mejores sistemas del mercado y garantizamos que tu equipo los usará. Odoo, SAP, Microsoft Dynamics, Salesforce — el que mejor se adapte a ti, no al revés.</p>
+        <ul class="service-features">
+          <li>ERP completo: Odoo, SAP, Microsoft Dynamics</li>
+          <li>CRM y automatización de ventas</li>
+          <li>WMS y logística inteligente</li>
+          <li>Migración de datos e integraciones</li>
+        </ul>
+        <a href="#contacto" class="service-link">Ver opciones para mi empresa →</a>
+      </div>
+
+      <div class="service-card reveal service-card-featured" id="service-ia">
+        <div class="service-icon-wrap s3">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+        </div>
+        <div class="featured-badge">IA AHORA</div>
+        <h3>Inteligencia Artificial Empresarial</h3>
+        <p>Automatiza lo repetitivo. Libera a tu equipo para lo que realmente importa. Sin hype, sin demos bonitas — IA que genera resultados reales y medibles en tu operación.</p>
+        <ul class="service-features">
+          <li>Diagnóstico de oportunidades de IA en tu empresa</li>
+          <li>Automatización inteligente de procesos</li>
+          <li>Asistentes y agentes de IA personalizados</li>
+          <li>Business Intelligence y analítica avanzada</li>
+        </ul>
+        <a href="#contacto" class="service-link">Explorar IA para mi empresa →</a>
+      </div>
+
+      <div class="service-card reveal" id="service-digmental">
+        <div class="service-icon-wrap s4">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3>Metodología DigMental™</h3>
+        <p>La única metodología que garantiza la adopción real de la tecnología. No cerramos el proyecto hasta que los números lo confirmen. Desarrollada en 20 años de implementaciones reales.</p>
+        <ul class="service-features">
+          <li>Change management tecnológico profundo</li>
+          <li>Formación y onboarding estructurado</li>
+          <li>Métricas de adopción y seguimiento</li>
+          <li>Cultura digital organizacional duradera</li>
+        </ul>
+        <a href="#digmental" class="service-link">Conocer DigMental™ →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
+<section id="tech-stack">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Tecnologías</span>
+      <h2>Implementamos las mejores plataformas<br /><span class="gradient-text">del mercado empresarial</span></h2>
+      <p class="section-sub">Somos independientes de proveedor. Seleccionamos la herramienta que mejor se adapta a <em>tu</em> empresa — no la que más nos conviene vender.</p>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-odoo">OD</div>
+        <span>Odoo</span>
+      </div>
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-sap">SAP</div>
+        <span>SAP</span>
+      </div>
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-ms">MS</div>
+        <span>Microsoft Dynamics</span>
+      </div>
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-sf">SF</div>
+        <span>Salesforce</span>
+      </div>
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-ai">AI</div>
+        <span>OpenAI / Claude</span>
+      </div>
+      <div class="tech-item reveal-scale">
+        <div class="tech-icon-box tech-power">BI</div>
+        <span>Power BI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ DIGMENTAL ═══════════════════════════ -->
+<section id="digmental">
+  <div class="digmental-bg">
+    <div class="dm-orb dm-orb-1"></div>
+    <div class="dm-orb dm-orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="digmental-inner">
+
+      <div class="digmental-left reveal-left">
+        <span class="section-tag light">Metodología Exclusiva</span>
+        <h2>La razón por la que<br /><span class="gradient-text-light">nuestros clientes no pierden<br />su inversión.</span></h2>
+        <p>El 70% de las implementaciones tecnológicas fracasan. La causa no es el software — es la resistencia humana al cambio. DigMental™ existe para eliminar esa resistencia.</p>
+        <p>No entregamos un sistema. Entregamos un equipo transformado que realmente usa, entiende y aprovecha la tecnología.</p>
+        <a href="#contacto" class="btn btn-white">Quiero la transformación completa →</a>
+      </div>
+
+      <div class="digmental-right reveal-right">
+        <div class="dm-steps">
+          <div class="dm-step">
+            <div class="dm-step-num">01</div>
+            <div class="dm-step-content">
+              <h4>Diagnóstico 360°</h4>
+              <p>Mapeamos personas, procesos y plataformas antes de tocar una línea de código. Conocemos tu empresa por dentro.</p>
+            </div>
+          </div>
+          <div class="dm-step">
+            <div class="dm-step-num">02</div>
+            <div class="dm-step-content">
+              <h4>Arquitectura de Solución</h4>
+              <p>Diseñamos la solución exacta para tu operación. Sin extras que no necesitas. Sin shortcuts que te cuesten más después.</p>
+            </div>
+          </div>
+          <div class="dm-step">
+            <div class="dm-step-num">03</div>
+            <div class="dm-step-content">
+              <h4>Implementación + Capacitación</h4>
+              <p>Implementamos y formamos tu equipo al mismo tiempo. Cuando el sistema sale en vivo, tu gente ya sabe usarlo.</p>
+            </div>
+          </div>
+          <div class="dm-step">
+            <div class="dm-step-num">04</div>
+            <div class="dm-step-content">
+              <h4>Medición de Adopción Real</h4>
+              <p>Medimos que realmente lo usen. No cerramos el proyecto hasta que los números confirmen la adopción.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ RESULTADOS ═══════════════════════════ -->
+<section id="resultados">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Resultados</span>
+      <h2>Lo que nuestros clientes logran<br /><span class="gradient-text">en los primeros 90 días</span></h2>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card reveal-scale">
+        <div class="result-num">3x</div>
+        <div class="result-label">Aumento en eficiencia operativa promedio post-implementación</div>
+      </div>
+      <div class="result-card reveal-scale">
+        <div class="result-num">-40%</div>
+        <div class="result-label">Reducción de costos operativos en los primeros 12 meses</div>
+      </div>
+      <div class="result-card reveal-scale">
+        <div class="result-num">98%</div>
+        <div class="result-label">Tasa de adopción real gracias a DigMental™</div>
+      </div>
+      <div class="result-card reveal-scale">
+        <div class="result-num">6 sem</div>
+        <div class="result-label">Tiempo promedio de implementación y puesta en marcha</div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"MARD Systems no solo implementó nuestro ERP — transformó la forma en que nuestro equipo trabaja. La metodología DigMental fue clave para que todos adoptaran el sistema desde el día uno. Hoy no imagino la operación sin él."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MR</div>
+          <div>
+            <strong>María Rodríguez</strong>
+            <span>Directora de Operaciones · Sector Distribución</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Llevábamos 3 años buscando la solución correcta. MARD llegó, evaluó nuestros procesos sin prejuicios y nos propuso exactamente lo que necesitábamos. En 6 semanas teníamos el sistema funcionando y el equipo usándolo."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">CL</div>
+          <div>
+            <strong>Carlos López</strong>
+            <span>CEO · Empresa de Logística Industrial</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Lo que más valoro es que no nos vendieron un producto. Nos escucharon, entendieron nuestro negocio y construyeron una solución que encaja con nuestra realidad. Y se quedaron hasta que lo adoptamos completamente."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AP</div>
+          <div>
+            <strong>Ana Pereira</strong>
+            <span>Gerente General · Sector Retail</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CTA BAND ═══════════════════════════ -->
+<section id="cta-band">
+  <div class="container cta-band-inner reveal">
+    <div class="cta-band-text">
+      <h2>¿Listo para implementar tecnología<br /><span class="gradient-text">que tu equipo realmente use?</span></h2>
+      <p>Agenda una evaluación gratuita de 45 minutos. Sin compromiso — con diagnóstico honesto y 3 oportunidades de mejora reales desde la primera sesión.</p>
+    </div>
+    <div class="cta-band-actions">
+      <a href="#contacto" class="btn btn-primary btn-lg">Quiero mi diagnóstico gratuito</a>
+      <span class="cta-note">Sin costo · Sin compromiso · +20 años de experiencia</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACTO ═══════════════════════════ -->
+<section id="contacto">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Contacto</span>
+      <h2>Hablemos. <span class="gradient-text">Sin rodeos.</span></h2>
+      <p class="section-sub">En 45 minutos te decimos exactamente qué necesitas y qué no. Sin venta forzada — solo diagnóstico real y valor desde la primera sesión.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-form-wrap reveal-left">
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa *</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email corporativo *</label>
+              <input type="email" id="email" name="email" placeholder="tu@empresa.com" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono / WhatsApp</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+1 234 567 890" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interes">¿En qué servicio estás interesado?</label>
+            <select id="interes" name="interes">
+              <option value="">Selecciona una opción</option>
+              <option value="consultoria">Consultoría IT &amp; CTO as a Service</option>
+              <option value="erp">Implementación ERP / CRM / WMS</option>
+              <option value="ia">Inteligencia Artificial para mi empresa</option>
+              <option value="digmental">Metodología DigMental™</option>
+              <option value="otro">No lo sé aún — quiero un diagnóstico</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Cuéntanos el mayor desafío tecnológico de tu empresa</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué no está funcionando como debería? ¿Qué te gustaría mejorar?..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit">Enviar mi solicitud →</button>
+          <p class="form-disclaimer">Tus datos son 100% confidenciales y no se compartirán con terceros. Tiempo de respuesta: menos de 24 horas hábiles.</p>
+        </form>
+      </div>
+
+      <div class="contact-info reveal-right">
+        <div class="contact-info-card">
+          <h3>¿Prefieres contactarnos directamente?</h3>
+          <p>Un especialista estará listo para escucharte.</p>
+          <div class="contact-detail">
+            <div class="contact-icon">📧</div>
+            <div>
+              <span>Email</span>
+              <a href="mailto:info@mardsystems.net">info@mardsystems.net</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <span>Web</span>
+              <a href="https://www.mardsystems.net" target="_blank" rel="noopener">www.mardsystems.net</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">⚡</div>
+            <div>
+              <span>Tiempo de respuesta</span>
+              <strong>Menos de 24 horas hábiles</strong>
+            </div>
+          </div>
+          <div class="contact-promise">
+            <div class="promise-icon">🎯</div>
+            <div>
+              <h4>Nuestra promesa de la primera sesión</h4>
+              <p>Diagnóstico honesto de tu situación tecnológica actual + mínimo 3 oportunidades de mejora concretas y accionables. Sin compromiso. Con valor real desde el primer minuto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <img src="logo.png" alt="MARD Systems Logo" class="logo-img" onerror="this.style.display='none'">
+          <span class="logo-text">MARD <strong>Systems</strong></span>
+        </a>
+        <p>Tu socio tecnológico integral. Más de 20 años transformando empresas con tecnología que realmente se adopta — gracias a la metodología exclusiva DigMental™.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Consultoría IT</a></li>
+          <li><a href="#servicios">Implementación ERP</a></li>
+          <li><a href="#servicios">Inteligencia Artificial</a></li>
+          <li><a href="#digmental">Metodología DigMental™</a></li>
+          <li><a href="#servicios">CTO as a Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#tech-stack">Tecnologías</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-cta-block">
+        <h4>¿Listo para transformar tu empresa?</h4>
+        <a href="#contacto" class="btn btn-primary">Diagnóstico gratuito →</a>
+        <p style="margin-top:1rem;font-size:0.8rem;color:var(--text-muted);">Sin costo · Sin compromiso<br />Respuesta en &lt; 24 horas</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 MARD Systems. Todos los derechos reservados.</span>
+      <span>Consultoría IT · ERP · IA Empresarial · DigMental™</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
